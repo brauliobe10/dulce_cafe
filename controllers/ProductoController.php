@@ -39,11 +39,10 @@ class ProductoController {
         include __DIR__ . '/../views/producto_form.php';
     }
 
-    /**
-     * Datos de menú de respaldo cuando no hay productos en la base de datos.
-     *
-     * @return array
-     */
+    
+    //Datos de menú de respaldo cuando no hay productos en la base de datos.
+
+     
     private function productosMock() {
         return [
             [
